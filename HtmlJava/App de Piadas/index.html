@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aplicativo de piadas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #liked-jokes {
+  text-align: left;
+}
+
+  .container {
+    text-align: center;
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Aplicativo de piadas</h1>
+    <button class="btn btn-primary" id="get-jokes-btn">Obter Piada</button>
+    <button class="btn btn-secondary" id="next-joke-btn">Próxima Piada</button>
+    <div id="joke-container"></div>
+    <button class="btn btn-success" id="like-joke-btn">Curtir</button>
+    <h2>Piadas Curtidas</h2>
+    <ul id="liked-jokes"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
